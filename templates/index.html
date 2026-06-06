@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>AI Text To Speech Generator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🎙️ AI Text To Speech Generator</h1>
+
+    <label for="text">
+        Enter Text
+    </label>
+
+    <textarea
+        id="text"
+        placeholder="Paste your text here...">
+    </textarea>
+
+    <div class="counter">
+        <span id="count">0</span>/5000 Characters
+    </div>
+
+    <div class="counter">
+        Used generations: <span id="usedCount">0</span>/5
+    </div>
+
+    <div class="counter">
+        Remaining generations: <span id="remainingCount">5</span>/5
+    </div>
+
+    <div class="counter">
+        Session expires in: <span id="sessionExpiry">30</span> minutes
+    </div>
+
+    <label for="filename">
+        File Name
+    </label>
+
+    <input
+        type="text"
+        id="filename"
+        placeholder="example_audio">
+
+    <label for="language">
+        Language
+    </label>
+
+    <select id="language">
+
+        <option value="en">
+            English
+        </option>
+
+        <option value="hi">
+            Hindi
+        </option>
+
+    </select>
+
+    <button
+        id="generateBtn">
+
+        Generate Audio
+
+    </button>
+
+    <div
+        id="status"
+        class="status">
+    </div>
+
+    <div
+        id="sessionInfo"
+        class="status">
+    </div>
+
+    <div id="audioSection">
+
+        <h3>
+            Generated Audio
+        </h3>
+
+        <audio
+            id="audioPlayer"
+            controls
+            preload="metadata">
+        </audio>
+
+        <br>
+
+        <a
+            id="downloadBtn"
+            class="download-btn"
+            download>
+
+            Download MP3
+
+        </a>
+
+    </div>
+
+</div>
+<script src="scripts.js"> </script> 
+
+</body>
+
+</html>
