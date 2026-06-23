@@ -1,8 +1,11 @@
 # 🎙️ Text To Speech App
 
 🌐 **GitHub** → [🐙 Visit Profile](https://github.com/ankitkumartyagi05)
+
 📊 **Kaggle** → [🏆 View Competitions & Notebooks](https://www.kaggle.com/ankitkumartyagiuset)
+
 💼 **LinkedIn** → [👔 Connect Professionally](https://www.linkedin.com/in/ankit-kumar-tyagi-)
+
 
 ### 🔊 Convert Text Into Natural Human Speech Instantly
 
